@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <h1>DashBoard</h1>
+    <a href="#!" id="logOut">logout</a>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src="js/common.js"></script>
+    <script>
+        $(function () {
+            $("#logOut").click(function (e) {
+                e.preventDefault();
+                var params = {}
+                var data = Ajaxcall(params, "logout","GET");
+                
+
+            })
+           
+
+        })
+    </script>
+</body>
+</html>

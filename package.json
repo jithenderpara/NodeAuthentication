@@ -17,9 +17,13 @@
   },
   "homepage": "https://github.com/jithenderpara/NodeAuthentication#readme",
   "dependencies": {
+<<<<<<< HEAD
     "body-parser": "^1.17.2",
     "client-sessions": "^0.8.0",
     "express": "^4.15.3",
     "mongoose": "^4.10.1"
+=======
+    "express": "^4.15.3"
+>>>>>>> 5fb2d4db9b14c7c97024544477a4655e1fb7a323
   }
 }

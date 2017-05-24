@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-﻿var express = require("express");
+﻿
+var express = require("express");
 var utils = require('../utils');
 var mongoose = require('mongoose');
 //var models = require("../models");
@@ -58,6 +58,3 @@ router.get('/logout', function (req, res) {
 
 
 module.exports = router;
-=======
-﻿
->>>>>>> 5fb2d4db9b14c7c97024544477a4655e1fb7a323

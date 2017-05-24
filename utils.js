@@ -1,17 +1,15 @@
 ﻿var express = require("express");
-<<<<<<< HEAD
 var bodyParser = require("body-parser");
 var path = require("path");
 var session = require('client-sessions');
 
 var middleware = require('./middleware');
-=======
->>>>>>> 5fb2d4db9b14c7c97024544477a4655e1fb7a323
+
 
 module.exports.createApp = function () {
     var app = express();
 
-<<<<<<< HEAD
+
     //Middlewares
     
     app.use(bodyParser.urlencoded({ extended: false }));
@@ -71,15 +69,3 @@ module.exports.requireLogin = function (req, res, next) {
         next();
     }
 };
-=======
-    //middlewires
-    app.use(require("./services/main"))
-    app.use(require("./services/auth"))
-
-    return app;
-}
-
-function sendViewTomiddlewire() {
-
-}
->>>>>>> 5fb2d4db9b14c7c97024544477a4655e1fb7a323

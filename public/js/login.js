@@ -1,9 +1,9 @@
 
-﻿$(function () {
+$(function () {
     $("#login").click(function () {
         var params = { email: $("input[id='mail']").val(), password: $("input[id='pass']").val() }
         var data = Ajaxcall(params, "login");
-        if (data.status=="OK")
+        if (data.status == "OK")
             window.location.href = data.url;
         else {
             alert(data.msg)
@@ -17,3 +17,4 @@
 
     })
 })
+
